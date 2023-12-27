@@ -10,6 +10,7 @@ class TradingAPI:
     """
     OANDA v20 Trading API class
     """
+
     def __init__(self, base_url=BASE_URL, api_key=API_KEY):
         self.base_url = base_url
         self.api_key = api_key
