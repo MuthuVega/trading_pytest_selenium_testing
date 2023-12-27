@@ -15,6 +15,7 @@ class TestTradingAPI:
     """
     Test class to test OANDA v20 trading API's
     """
+
     user_acc_api_client = v20_api.UserAccounts()
 
     def test_get_user_accounts(self):
